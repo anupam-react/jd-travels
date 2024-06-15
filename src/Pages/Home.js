@@ -144,7 +144,7 @@ const Home = () => {
     autoplaySpeed: 2000,
   };
   return (
-    <div>
+    <div className="mx-6">
       <div className="relative">
         <Slider {...settings}>
           <div className="relative">

@@ -313,8 +313,9 @@ const Onewayresult = () => {
                 }
               </div>
               
-              <div className="w-full h-[103px] rounded-3xl bg-white  flex justify-around items-center">
-                <div className="w-[133px] h-[45px] flex items-center gap-1">
+              <div className="w-full py-6 px-6 rounded-3xl bg-white ">
+              <div className="flex justify-between items-center">
+                <div className="h-[45px] flex items-center gap-1">
                   <div>
                     <img src={airindia} alt="" className="w-[32px] h-[32px]" />
                   </div>
@@ -336,16 +337,20 @@ const Onewayresult = () => {
                   <div className="text-[14px]">Bengaluru</div>
                 </div>
                 <div className="flex flex-col gap-2">
-                  <div className="w-[144px] h-[36px] text-[20px] flex justify-center items-center font-semibold text-white  bg-[#FFC10E] rounded-3xl">
-                    Book
-                  </div>
-                  <div className="text-[12px] text-center">
+                  <Link to="/Onewayresult/Bookingdetails">
+                    <div className="w-[144px] h-[36px] text-[20px] flex justify-center items-center font-semibold text-white  bg-[#FFC10E] rounded-3xl">
+                      Book
+                    </div>
+                  </Link>
+                  <div className="text-[12px] text-center cursor-pointer">
                     View Flight Details
                   </div>
                 </div>
+                </div>
               </div>
-              <div className="w-full h-[103px] rounded-3xl bg-white  flex justify-around items-center">
-                <div className="w-[133px] h-[45px] flex items-center gap-1">
+              <div className="w-full py-6 px-6 rounded-3xl bg-white ">
+              <div className="flex justify-between items-center">
+                <div className="h-[45px] flex items-center gap-1">
                   <div>
                     <img src={airindia} alt="" className="w-[32px] h-[32px]" />
                   </div>
@@ -367,16 +372,20 @@ const Onewayresult = () => {
                   <div className="text-[14px]">Bengaluru</div>
                 </div>
                 <div className="flex flex-col gap-2">
-                  <div className="w-[144px] h-[36px] text-[20px] flex justify-center items-center font-semibold text-white  bg-[#FFC10E] rounded-3xl">
-                    Book
-                  </div>
-                  <div className="text-[12px] text-center">
+                  <Link to="/Onewayresult/Bookingdetails">
+                    <div className="w-[144px] h-[36px] text-[20px] flex justify-center items-center font-semibold text-white  bg-[#FFC10E] rounded-3xl">
+                      Book
+                    </div>
+                  </Link>
+                  <div className="text-[12px] text-center cursor-pointer">
                     View Flight Details
                   </div>
                 </div>
+                </div>
               </div>
-              <div className="w-full h-[103px] rounded-3xl bg-white flex justify-around items-center">
-                <div className="w-[133px] h-[45px] flex items-center gap-1">
+              <div className="w-full py-6 px-6 rounded-3xl bg-white ">
+              <div className="flex justify-between items-center">
+                <div className="h-[45px] flex items-center gap-1">
                   <div>
                     <img src={airindia} alt="" className="w-[32px] h-[32px]" />
                   </div>
@@ -398,16 +407,20 @@ const Onewayresult = () => {
                   <div className="text-[14px]">Bengaluru</div>
                 </div>
                 <div className="flex flex-col gap-2">
-                  <div className="w-[144px] h-[36px] text-[20px] flex justify-center items-center font-semibold text-white  bg-[#FFC10E] rounded-3xl">
-                    Book
-                  </div>
-                  <div className="text-[12px] text-center">
+                  <Link to="/Onewayresult/Bookingdetails">
+                    <div className="w-[144px] h-[36px] text-[20px] flex justify-center items-center font-semibold text-white  bg-[#FFC10E] rounded-3xl">
+                      Book
+                    </div>
+                  </Link>
+                  <div className="text-[12px] text-center cursor-pointer">
                     View Flight Details
                   </div>
                 </div>
+                </div>
               </div>
-              <div className="w-full h-[103px] rounded-3xl bg-white  flex justify-around items-center">
-                <div className="w-[133px] h-[45px] flex items-center gap-1">
+              <div className="w-full py-6 px-6 rounded-3xl bg-white ">
+              <div className="flex justify-between items-center">
+                <div className="h-[45px] flex items-center gap-1">
                   <div>
                     <img src={airindia} alt="" className="w-[32px] h-[32px]" />
                   </div>
@@ -429,14 +442,18 @@ const Onewayresult = () => {
                   <div className="text-[14px]">Bengaluru</div>
                 </div>
                 <div className="flex flex-col gap-2">
-                  <div className="w-[144px] h-[36px] text-[20px] flex justify-center items-center font-semibold text-white  bg-[#FFC10E] rounded-3xl">
-                    Book
-                  </div>
-                  <div className="text-[12px] text-center">
+                  <Link to="/Onewayresult/Bookingdetails">
+                    <div className="w-[144px] h-[36px] text-[20px] flex justify-center items-center font-semibold text-white  bg-[#FFC10E] rounded-3xl">
+                      Book
+                    </div>
+                  </Link>
+                  <div className="text-[12px] text-center cursor-pointer">
                     View Flight Details
                   </div>
                 </div>
+                </div>
               </div>
+             
             </div>
           </div>
         </div>

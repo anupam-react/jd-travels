@@ -141,7 +141,7 @@ const Navbar = () => {
           <div className="opacity-25 fixed inset-0 z-40 bg-black"></div>
         </>
       ) : null}
-      <div className="flex justify-between">
+      <div className="flex justify-between mx-6">
         <Link to="/">
           <div>
             <img src={logo} alt="logo" />
