@@ -1244,9 +1244,9 @@ const Home = () => {
       </div>
       <div className="mx-[80px]">
       <div className="mt-[24rem] xl:mt-[22rem] 2xl:mt-[24rem] font-semibold">
-        <div>Previous search</div>
-        <div className="flex gap-2 mt-5">
-          <div className="w-[273px] h-[81px] border border-[#E2E2E2] flex justify-center items-center rounded-2xl">
+        <div className="text-[20px]">Previous search</div>
+        <div className="grid grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-4 mt-5">
+          <div className="p-2 border border-[#E2E2E2] flex justify-center items-center rounded-2xl">
             <div className="flex items-center gap-4">
               <div className="flex flex-col gap-2">
                 <div className="text-[#58595B] flex gap-1 text-[18px]">
@@ -1261,7 +1261,7 @@ const Home = () => {
               </div>
             </div>
           </div>
-          <div className="w-[273px] h-[81px] border border-[#E2E2E2] flex justify-center items-center rounded-2xl">
+          <div className="p-2 border border-[#E2E2E2] flex justify-center items-center rounded-2xl">
             <div className="flex items-center gap-4">
               <div className="flex flex-col gap-2">
                 <div className="text-[#58595B] flex gap-1 text-[18px]">
@@ -1276,7 +1276,7 @@ const Home = () => {
               </div>
             </div>
           </div>
-          <div className="w-[273px] h-[81px] border border-[#E2E2E2] flex justify-center items-center rounded-2xl">
+          <div className="p-2 border border-[#E2E2E2] flex justify-center items-center rounded-2xl">
             <div className="flex items-center gap-4">
               <div className="flex flex-col gap-2">
                 <div className="text-[#58595B] flex gap-1 text-[18px]">
@@ -1291,7 +1291,7 @@ const Home = () => {
               </div>
             </div>
           </div>
-          <div className="w-[273px] h-[81px] border border-[#E2E2E2] flex justify-center items-center rounded-2xl">
+          <div className="p-2 border border-[#E2E2E2] flex justify-center items-center rounded-2xl">
             <div className="flex items-center gap-4">
               <div className="flex flex-col gap-2">
                 <div className="text-[#58595B] flex gap-1 text-[18px]">
@@ -1306,7 +1306,7 @@ const Home = () => {
               </div>
             </div>
           </div>
-          <div className="w-[273px] h-[81px] border border-[#E2E2E2] flex justify-center items-center rounded-2xl">
+          <div className="p-2 border border-[#E2E2E2] flex justify-center items-center rounded-2xl">
             <div className="flex items-center gap-4">
               <div className="flex flex-col gap-2">
                 <div className="text-[#58595B] flex gap-1 text-[18px]">
@@ -1325,7 +1325,7 @@ const Home = () => {
       </div>
       <div className="mt-10 pb-10">
         <div className="flex justify-between">
-          <div className="font-semibold">Popular destinations</div>
+          <div className="font-semibold text-[20px]">Popular destinations</div>
           <div className="underline flex items-center">
             View all <IoIosArrowForward />
           </div>
@@ -1433,7 +1433,7 @@ const Home = () => {
         </div>
         <div className="mt-5">
           <div className="font-semibold">Flight to Cities</div>
-          <div className="mt-5 flex gap-[12rem]  ">
+          <div className="mt-5 flex justify-between gap-4  ">
             <div className="flex flex-col gap-4 w-[175px]">
               <div className=" text-[18px]">Flight to New Delhi</div>
               <div className=" text-[18px]">Flight to Kolkata</div>
@@ -1454,9 +1454,9 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div className="mt-5">
+        <div className="mt-10">
           <div className="font-semibold">Flight to Top Countries</div>
-          <div className="mt-5 flex gap-[10rem] w-[1300px]">
+          <div className="mt-5 flex justify-between gap-4">
             <div className="flex flex-col gap-4">
               <div>Flight to United Arab Emirates</div>
               <div>Flight to Oman</div>
