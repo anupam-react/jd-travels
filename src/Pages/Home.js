@@ -187,7 +187,7 @@ const Home = () => {
             </div>
           </div>
         </Slider>
-        <div className="absolute top-[16rem] w-full flex items-center justify-center z-40">
+        <div className="absolute top-[14rem]  xl:top-[16rem]  w-full flex items-center justify-center z-40">
           <div className="w-full mx-[80px] bg-white shadow-xl rounded-2xl pt-5 p-5 Montserrat">
             <div className="flex gap-10">
               <div
@@ -668,30 +668,31 @@ const Home = () => {
                                 </Link>
                               </div>
                             </div>
-                              <div className="mt-8 flex gap-4 ">
-                      <div className="flex gap-2">
+                    <div className="mt-8 flex gap-4 ">
+                      <div className="flex items-center gap-2">
                         <input type="checkbox" />
                         Direct flight only
                       </div>
-                      <div className="flex gap-2 ">
+                      <div className="border border-[#B6C2D2]"></div>
+                      <div className="flex items-center gap-2 ">
                         <input type="checkbox" />
                         Vistara
                       </div>
 
-                      <div className="flex gap-2 ">
+                      <div className="flex items-center gap-2 ">
                         <input type="checkbox" />
                         Indigo
                       </div>
 
-                      <div className="flex gap-2 ">
+                      <div className="flex items-center gap-2 ">
                         <input type="checkbox" />
                         Air Asia
                       </div>
-                      <div className="flex gap-2 ">
+                      <div className="flex items-center gap-2 ">
                         <input type="checkbox" />
                         Air India{" "}
                       </div>
-                      <div className="flex gap-2 ">
+                      <div className="flex items-center gap-2 ">
                         <input type="checkbox" />
                         Spicejet
                       </div>
@@ -804,11 +805,15 @@ const Home = () => {
                                 </div>
                                 <div className="text-[16px]">Add Date</div>
                               </div>
-                              <div className="w-[178px] h-[63px]">
+                              <div className="w-[178px] h-[63px] ">
+                              <div className="flex items-center gap-4">
                                 <div className="text-[24px] font-semibold">
                                   Return
                                 </div>
+                                <img src="../Group 4434.png" className="w-[25px] h-[25px]" alt=""/>
+                              </div>
                                 <div className="text-[16px]">Add Date</div>
+
                               </div>
                               <div className="w-[178px] h-[63px]">
                                 <div className="text-[24px] font-semibold">
@@ -825,30 +830,31 @@ const Home = () => {
                                 </div>
                               </Link>
                             </div>
-                              <div className="mt-8 flex gap-4 ">
-                      <div className="flex gap-2">
+                            <div className="mt-8 flex gap-4 ">
+                      <div className="flex items-center gap-2">
                         <input type="checkbox" />
                         Direct flight only
                       </div>
-                      <div className="flex gap-2 ">
+                      <div className="border border-[#B6C2D2]"></div>
+                      <div className="flex items-center gap-2 ">
                         <input type="checkbox" />
                         Vistara
                       </div>
 
-                      <div className="flex gap-2 ">
+                      <div className="flex items-center gap-2 ">
                         <input type="checkbox" />
                         Indigo
                       </div>
 
-                      <div className="flex gap-2 ">
+                      <div className="flex items-center gap-2 ">
                         <input type="checkbox" />
                         Air Asia
                       </div>
-                      <div className="flex gap-2 ">
+                      <div className="flex items-center gap-2 ">
                         <input type="checkbox" />
                         Air India{" "}
                       </div>
-                      <div className="flex gap-2 ">
+                      <div className="flex items-center gap-2 ">
                         <input type="checkbox" />
                         Spicejet
                       </div>
@@ -1079,33 +1085,34 @@ const Home = () => {
                                
                               </div>
                               <div className="mt-8 flex gap-4 ">
-                      <div className="flex gap-2">
+                      <div className="flex items-center gap-2">
                         <input type="checkbox" />
                         Direct flight only
                       </div>
-                      <div className="flex gap-2 ">
+                      <div className="border border-[#B6C2D2]"></div>
+                      <div className="flex items-center gap-2 ">
                         <input type="checkbox" />
                         Vistara
                       </div>
 
-                      <div className="flex gap-2 ">
+                      <div className="flex items-center gap-2 ">
                         <input type="checkbox" />
                         Indigo
                       </div>
 
-                      <div className="flex gap-2 ">
+                      <div className="flex items-center gap-2 ">
                         <input type="checkbox" />
                         Air Asia
                       </div>
-                      <div className="flex gap-2 ">
+                      <div className="flex items-center gap-2 ">
                         <input type="checkbox" />
                         Air India{" "}
                       </div>
-                      <div className="flex gap-2 ">
+                      <div className="flex items-center gap-2 ">
                         <input type="checkbox" />
                         Spicejet
                       </div>
-                               </div>
+                    </div>
                                 </div>
                               
                               <div className="flex flex-col justify-end items-end gap-2">
@@ -1235,7 +1242,8 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="mt-[20rem] font-semibold">
+      <div className="mx-[80px]">
+      <div className="mt-[24rem] xl:mt-[22rem] 2xl:mt-[24rem] font-semibold">
         <div>Previous search</div>
         <div className="flex gap-2 mt-5">
           <div className="w-[273px] h-[81px] border border-[#E2E2E2] flex justify-center items-center rounded-2xl">
@@ -1470,6 +1478,8 @@ const Home = () => {
             </div>
           </div>
         </div>
+      </div>
+
       </div>
     </div>
   );
