@@ -1426,13 +1426,13 @@ const Home = () => {
           <img src={banner} alt="" />
         </div>
         <div className="mt-5">
-          <div className="font-semibold">Popular Airlines</div>
+          <div className="font-semibold text-[20px]">Popular Airlines</div>
           <div className="mt-5">
             <img src={airlines} alt="" />
           </div>
         </div>
         <div className="mt-5">
-          <div className="font-semibold">Flight to Cities</div>
+          <div className="font-semibold text-[20px]">Flight to Cities</div>
           <div className="mt-5 flex justify-between gap-4  ">
             <div className="flex flex-col gap-4 w-[175px]">
               <div className=" text-[18px]">Flight to New Delhi</div>
@@ -1455,7 +1455,7 @@ const Home = () => {
           </div>
         </div>
         <div className="mt-10">
-          <div className="font-semibold">Flight to Top Countries</div>
+          <div className="font-semibold text-[20px]">Flight to Top Countries</div>
           <div className="mt-5 flex justify-between gap-4">
             <div className="flex flex-col gap-4">
               <div>Flight to United Arab Emirates</div>
